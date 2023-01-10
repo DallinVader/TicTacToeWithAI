@@ -1,0 +1,24 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .square {
+    background-color: #fff;
+    border: 1px solid #999;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .square:hover {
+    cursor: pointer;
+    background-color: #eee;
+  }
+  
